@@ -29,10 +29,10 @@ Un inventaire est reconnu comme frigo si son identifiant **commence par** un pr�
 - Seuls les items ayant une propriété `degrade` (périssables) sont affectés. Les durabilités statiques (armes, etc.) sont ignorées.
 - Aucune base de données : l'effet est porté par la metadata de l'item, donc persistant et compatible avec la sauvegarde native d'ox_inventory.
 
-['rizblanc'] = {
+``['rizblanc'] = {
     label = 'Riz blanc',
     weight = 100,
     degrade = 10,    -- minutes avant 0%
     decay = true,    -- <- detruit l'item quand il atteint 0%
     ...
-},
+},``
