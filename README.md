@@ -1,4 +1,4 @@
-# fridge-degradation
+# gld-freedge
 
 Ralentit la dégradation des objets périssables (`degrade`) d'`ox_inventory` lorsqu'ils sont stockés dans un frigo. Fonctionne sur **ESX, QBCore et QBox** sans configuration spécifique : toute la logique passe par `ox_inventory`, le framework n'est utilisé que pour l'affichage du log de démarrage.
 
